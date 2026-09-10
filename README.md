@@ -60,9 +60,9 @@ For visually impaired travellers, we provide an option to choose a verified volu
 
 ### 2.2 Ideation Boards
 We created a shared Google Docs where everyone could contribute and record their ideas. After gathering the ideas, we organized and discussed them to identify the most suitable ones for our project. We then created a flowchart using draw.io to visualize the overall process and ensure that all team members had a clear understanding of the proposed flow. Although the flowchart may differ slightly from our current ideas, it helped us identify areas that needed to be refined. We also discuss and refine our ideas through face-to-face discussions.
-![Google Docs](docs.png)
+![Google Docs](/images/docs.png)
 
-![Flow Chart](flowchart.png)
+![Flow Chart](/images/flowchart.png)
 
 ### 2.3 Mentor Consultation
 <table border="1" cellpadding="8" cellspacing="0">
