@@ -20,3 +20,43 @@ Our system simplifies the travel planning process by combining multiple travel f
 Besides that, to reduce the financial pressure on the person responsible for making the booking, we provide a separate payment system where each group member is required to pay their own share. Once all group members have completed their payments, the booking will be confirmed.
 To accommodate the preferences of most group members, we provide a preference-matching system that analyzes each member's preferences and generates suitable recommendations. We also allow users to select their available and unavailable dates, making it easier for the group to find a suitable time to travel.
 For visually impaired travellers, we provide an option to choose a verified volunteer to accompany them throughout their trip. This can reduce the anxiety and risk of getting lost when travelling in unfamiliar places.
+
+## 2. Ideation & Process
+### Ideas We Considered
+<table border="1">
+  <tr>
+    <th>Idea</th>
+    <th>Why it was dropped / kept</th>
+  </tr>
+  <tr>
+    <td><b>Combine All Features in a Plan (Chosen)</b></td>
+    <td>Solved the problem of using multiple platforms for flight, hotel, activities and car rental. Users can plan and book the whole trip and make one combined payment.</td>
+  </tr>
+  <tr>
+    <td><b>Group member date matching (Chosen)</b></td>
+    <td>This function finds overlapping dates when all group members are available. Other platforms only allow choosing dates by one person, which makes it hard to coordinate schedules.</td>
+  </tr>
+  <tr>
+    <td><b>Group preference matching by rating (Chosen)</b></td>
+    <td>This system can identify activity categories that members like or dislike most. This helps AI use those preferences to generate the best-matched trip plan.</td>
+  </tr>
+  <tr>
+    <td><b>Separate payment system (Chosen)</b></td>
+    <td>The system can calculate each member's share. After all members' payments are completed, the booking will then be complete. This makes the cost transparent and avoids confusion about how much each person needs to pay.</td>
+  </tr>
+  <tr>
+    <td><b>Volunteer Travel Companion (Chosen)</b></td>
+    <td>Provides trained and company-certified travel companions for visually impaired solo travellers.</td>
+  </tr>
+  <tr>
+    <td><b>Chat Function (Dropped)</b></td>
+    <td>Useful for communication, but users can use existing messaging apps to communicate. Also, it is not central to the travel-booking problem.</td>
+  </tr>
+  <tr>
+    <td><b>Polling Function (Dropped)</b></td>
+    <td>Could help groups vote on destinations or activities, but the group preference matching function already provides a more direct solution and is similar.</td>
+  </tr>
+</table>
+
+### 2.2 Ideation Boards
+We created a shared Google Docs where everyone could contribute and record their ideas. After gathering the ideas, we organized and discussed them to identify the most suitable ones for our project. We then created a flowchart using draw.io to visualize the overall process and ensure that all team members had a clear understanding of the proposed flow. Although the flowchart may differ slightly from our current ideas, it helped us identify areas that needed to be refined. We also discuss and refine our ideas through face-to-face discussions.
