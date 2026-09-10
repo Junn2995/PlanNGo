@@ -60,3 +60,30 @@ For visually impaired travellers, we provide an option to choose a verified volu
 
 ### 2.2 Ideation Boards
 We created a shared Google Docs where everyone could contribute and record their ideas. After gathering the ideas, we organized and discussed them to identify the most suitable ones for our project. We then created a flowchart using draw.io to visualize the overall process and ensure that all team members had a clear understanding of the proposed flow. Although the flowchart may differ slightly from our current ideas, it helped us identify areas that needed to be refined. We also discuss and refine our ideas through face-to-face discussions.
+
+### 2.3 Mentor Consultation
+<table border="1" cellpadding="8" cellspacing="0">
+  <tr>
+    <th>Date</th>
+    <th>Mentor</th>
+    <th>Feedback Received</th>
+    <th>What Was Changed</th>
+  </tr>
+  <tr>
+    <td>08/09/2026<br>20:25 Slot</td>
+    <td>Lim Zi Yang</td>
+    <td>
+      • The current features are too similar to existing applications such as Trip.com.<br><br>
+      • Conduct more research to determine the direction we want to take.<br><br>
+      • Focus more on the core features rather than UI/UX design.<br><br>
+      • Use tools that can help us find inspiration.<br><br>
+      • Explore more unique features to differentiate our application from existing applications.<br><br>
+      • Create a workflow.
+    </td>
+    <td>
+      • We spent more time conducting research to identify problems that most existing applications do not address.<br><br>
+      • We optimized the ideas we had.<br><br>
+      • We reorganized the overall flow of our idea to make it more realistic, smooth, and clear.
+    </td>
+  </tr>
+</table>
