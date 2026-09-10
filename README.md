@@ -90,3 +90,22 @@ We created a shared Google Docs where everyone could contribute and record their
     </td>
   </tr>
 </table>
+
+## 3. Design & Prototype
+### UI PRototype:
+[https://www.figma.com/design/9BV0odo3YyZJ2xKZQtlXCO/Untitled?node-id=0-1&t=92VUABxRGtTvp1xN-1 ]
+
+## 4. What Make It Different
+### Real-Time Contingency & Dynamic Itinerary Adaptation
+The Concept: Automated, real-time recalculation of itineraries based on external travel disruptions (flight delays or weather changes).
+The Twist / Originality: Existing apps send static notifications when flights are delayed. Our system automatically rewrites the live schedule using a smart prioritization hierarchy: it automatically shifts or discards unbooked/ticketless activities first, preserving paid reservations wherever possible. Weather shifts trigger instant indoor/outdoor activity swaps to protect the user's travel time and budget.
+### Inclusive "Sight-Guide" Companion System (OKU / Blind Accessibility)
+The Concept: Integrated booking for verified, certificated volunteers to accompany visually impaired (OKU) solo travelers throughout their daily travel journey.
+The Twist / Originality: Apps like Travel Hands (London) provide point-to-point micro-navigation (walking from station A to B), while Be My Eyes offers short virtual video assistance. Our platform integrates physical companion matching directly into full-day travel itineraries, keeping the blind traveler supported from morning departures until they return safely to their hotel.
+### Post-Travel Automation: Turnkey Itinerary Templates & Memory Diaries
+The Concept: Converting completed trips directly into shareable community templates and interactive photo/video diaries.
+The Twist / Originality: It moves seamless trip generation beyond the planning phase. Rather than requiring users to manually author a guide, the system automatically sanitizes and publishes completed trips into re-usable, bookable templates for other users.
+
+
+
+
