@@ -164,7 +164,7 @@ For visual impaired travellers, we will demonstrate the volunteer selection flow
 
 For functions that require APIs, we will try to use free APIs or sample data where possible instead of using paid services. For the payment system, we will only demonstrate the separate payment flow using simulated payments and will not process any real transactions.
 
-## 6. What Makes It Different
+## 6. Target Audience
 ### 1."Lazy Planners" & Efficiency Seekers
 This segment consists of travelers who want to travel but hate spending hours researching routes, hotels, and tickets. To serve these users, the system leverages AI-generated instant trips, automatic budget optimization, and pre-built travel templates to make planning fast and effortless.
 
