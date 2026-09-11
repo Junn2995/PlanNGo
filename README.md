@@ -10,15 +10,22 @@ Video Presentation:
 ## 1. Project Overview
 ### The Problem
 Most of the travel planning requires users to book  flights, hotels, activities, and other travel services separately. This can make the planning process complicated and confusing, especially when users do not have a clear overview of their entire trip. Even with a well-planned itinerary, unexpected situations such as flight delays or weather changes can disrupt the whole plan and require users to reorganize their schedule.
+
 Besides that, for group travel, the person responsible for making the bookings may also face significant financial pressure. They may need to pay the full amount upfront, while their friends may delay or fail to pay them back, causing financial loss and affecting their relationships. 
+
 Group members may have different preferences, making it difficult to create an itinerary that satisfies everyone. Without a proper preference-matching system, the final plan may favor certain members while overlooking the interests of others.
+
 Nowadays, many people have busy schedules, making it difficult to find a suitable time when everyone is available to meet and travel together. Existing travel planning applications often require users to select specific dates, which can make group trip planning more difficult when members have different schedules. As a result, finding a date that works for everyone can be time-consuming and challenging.
+
 Furthermore, the visually impaired travellers may face difficulties when travelling alone, especially when navigating unfamiliar places safely. Although there are existing applications that provide assistance, such as short-distance navigation or video-call support, these services may not provide continuous, end-to-end assistance throughout the traveller’s journey.
 
 ### Our Solution
 Our system simplifies the travel planning process by combining multiple travel features into one platform. Users can select the required features sequentially and make the payment through the system.
+
 Besides that, to reduce the financial pressure on the person responsible for making the booking, we provide a separate payment system where each group member is required to pay their own share. Once all group members have completed their payments, the booking will be confirmed.
+
 To accommodate the preferences of most group members, we provide a preference-matching system that analyzes each member's preferences and generates suitable recommendations. We also allow users to select their available and unavailable dates, making it easier for the group to find a suitable time to travel.
+
 For visually impaired travellers, we provide an option to choose a verified volunteer to accompany them throughout their trip. This can reduce the anxiety and risk of getting lost when travelling in unfamiliar places.
 
 ## 2. Ideation & Process
@@ -92,23 +99,25 @@ We created a shared Google Docs where everyone could contribute and record their
 </table>
 
 ## 3. Design & Prototype
-### UI PRototype:
-[https://www.figma.com/design/9BV0odo3YyZJ2xKZQtlXCO/Untitled?node-id=0-1&t=92VUABxRGtTvp1xN-1 ]
+[UI Prototype](https://www.figma.com/design/9BV0odo3YyZJ2xKZQtlXCO/Untitled?node-id=0-1&t=92VUABxRGtTvp1xN-1)
 
 ## 4. What Make It Different
 ### Real-Time Contingency & Dynamic Itinerary Adaptation
 The Concept: Automated, real-time recalculation of itineraries based on external travel disruptions (flight delays or weather changes).
+
 The Twist / Originality: Existing apps send static notifications when flights are delayed. Our system automatically rewrites the live schedule using a smart prioritization hierarchy: it automatically shifts or discards unbooked/ticketless activities first, preserving paid reservations wherever possible. Weather shifts trigger instant indoor/outdoor activity swaps to protect the user's travel time and budget.
 ### Inclusive "Sight-Guide" Companion System (OKU / Blind Accessibility)
 The Concept: Integrated booking for verified, certificated volunteers to accompany visually impaired (OKU) solo travelers throughout their daily travel journey.
+
 The Twist / Originality: Apps like Travel Hands (London) provide point-to-point micro-navigation (walking from station A to B), while Be My Eyes offers short virtual video assistance. Our platform integrates physical companion matching directly into full-day travel itineraries, keeping the blind traveler supported from morning departures until they return safely to their hotel.
 ### Post-Travel Automation: Turnkey Itinerary Templates & Memory Diaries
 The Concept: Converting completed trips directly into shareable community templates and interactive photo/video diaries.
+
 The Twist / Originality: It moves seamless trip generation beyond the planning phase. Rather than requiring users to manually author a guide, the system automatically sanitizes and publishes completed trips into re-usable, bookable templates for other users.
 
 
-## 5. Technical Architecture & Feasibility ⭐
-Tech stack
+## 5. Technical Architecture & Feasibility
+### Tech stack
 - ### Frontend
 Next.js (React) will be used for the frontend because it was recommended by our mentor and is suitable for building a modern web application. It allows us to create reusable components and handle different pages such as trip planning, group preferences, booking, payment and travel diary. 
 
@@ -146,9 +155,13 @@ Our approach is to prioritize free and accessible technologies so that we can bu
 
 ### Build plan & scope
 During the building phase, we will focus on developing the core travel planning flow for both solo and group travel. This includes manual trip planning and AI trip planning, where users can select flights, hotels, activities, and other travel options based on their preferences and budget.
+
 For group travel, we will implement the group availability and preference-matching system, allowing members to submit their available dates, budgets, and preferences before generating a suitable itinerary. We will also demonstrate the separate payment system, where each group member pays their own share before the booking is confirmed.
+
 In addition, we will demonstrate dynamic itinerary adjustment for unexpected situations such as flight delays and weather changes. The system will notify users and allow AI to rearrange or remove suitable activities before updating the itinerary.
+
 For visual impaired travellers, we will demonstrate the volunteer selection flow using sample volunteers.
+
 For functions that require APIs, we will try to use free APIs or sample data where possible instead of using paid services. For the payment system, we will only demonstrate the separate payment flow using simulated payments and will not process any real transactions.
 
 ## 6. What Makes It Different
