@@ -107,56 +107,58 @@ The Concept: Converting completed trips directly into shareable community templa
 The Twist / Originality: It moves seamless trip generation beyond the planning phase. Rather than requiring users to manually author a guide, the system automatically sanitizes and publishes completed trips into re-usable, bookable templates for other users.
 
 
-##5. Technical Architecture & Feasibility ⭐
+5. Technical Architecture & Feasibility ⭐
 Tech stack
-- ###Frontend
+- Frontend
 Next.js (React) will be used for the frontend because it was recommended by our mentor and is suitable for building a modern web application. It allows us to create reusable components and handle different pages such as trip planning, group preferences, booking, payment and travel diary. 
 
 Constraints: Our team has limited development time and experience with Next.js, so we will keep the implementation focused on the core features required for the prototype. 
 
-- ###Backend
+- Backend
 Next.js Server-side API / Route Handlers will be used as the backend layer of our application. It will handle requests between the frontend, Supabase database and external APIs, such as AI, flight and weather services. We chose this approach because it allows us to manage both the frontend and backend within the same Next.js project, reducing development complexity and the number of technologies our team needs to learn.
 
 Constraint: Our team has limited experience with backend development and Next.js server-side features. Therefore, we will keep the backend focused on the core functions required for the prototype, such as retrieving and storing trip data, processing user preferences and connecting to external APIs.
 
 
 
-- ###Database
+- Database
 We plan to use Supabase for storing user accounts, groups, trip information, preferences, bookings and payment status. Supabase is suitable for our project because it provides a database and authentication services with a free tier, which is useful for a student project. 
 
 Constraints: The free tier has usage and storage limitations. We may also need to keep the amount of stored data and API requests within the available limits. 
 
-- ###APIs
+- APIs
 We will first use mock APIs to develop and test the application. Once the core functions are stable, we will replace the mock APIs with real APIs that are free and accessible. 
 
 Constraint: Mock data will not represent real-time availability or prices. Therefore, the prototype cannot guarantee that the displayed bookings are actually available. 
 
-- ###Services (Payment)
+- Services (Payment)
 The payment system will be simulated for the prototype, it won’t connect directly to real banking services or Touch ’n Go accounts. Users can select a payment method and proceed through a simulated payment flow to demonstrate how the combined booking and group payment process would work.
 For group trips, the system will calculate each member's payment share and display their individual amount.
 Constraint: No real money will be transferred, and the prototype will not process actual bank or e-wallet transactions. A production version would require a proper payment gateway, security measures and merchant/payment-provider integration.
-- ###Hosting
+
+- Hosting
 The web application will be hosted on Vercel, which is suitable for Next.js applications and provides a free tier for our prototype projects. It can allow us to deploy the application quickly and share a public URL with judges.
 Constraint: The free hosting tier has limits on usage and server resources. These limits should be sufficient for our prototype but may not be suitable for a large number of real users.
-- ###Overall Technology Approach
+
+Overall Technology Approach
 Our approach is to prioritize free and accessible technologies so that we can build and demonstrate the main concept within the project timeframe. Where real external services are not freely available, we will use mock APIs and simulated payment data rather than paying for commercial services. This allows us to focus on demonstrating the core features of our project.
 
 
-###Build plan & scope
+Build plan & scope
 During the building phase, we will focus on developing the core travel planning flow for both solo and group travel. This includes manual trip planning and AI trip planning, where users can select flights, hotels, activities, and other travel options based on their preferences and budget.
 For group travel, we will implement the group availability and preference-matching system, allowing members to submit their available dates, budgets, and preferences before generating a suitable itinerary. We will also demonstrate the separate payment system, where each group member pays their own share before the booking is confirmed.
 In addition, we will demonstrate dynamic itinerary adjustment for unexpected situations such as flight delays and weather changes. The system will notify users and allow AI to rearrange or remove suitable activities before updating the itinerary.
 For visual impaired travellers, we will demonstrate the volunteer selection flow using sample volunteers.
 For functions that require APIs, we will try to use free APIs or sample data where possible instead of using paid services. For the payment system, we will only demonstrate the separate payment flow using simulated payments and will not process any real transactions.
 
-##6. What Makes It Different 
-###1."Lazy Planners" & Efficiency Seekers
+6. What Makes It Different
+1."Lazy Planners" & Efficiency Seekers
 This segment consists of travelers who want to travel but hate spending hours researching routes, hotels, and tickets. To serve these users, the system leverages AI-generated instant trips, automatic budget optimization, and pre-built travel templates to make planning fast and effortless.
 
-###2.Group Travelers & Friends Splitting Expenses
+2.Group Travelers & Friends Splitting Expenses
 This segment targets groups of friends, families, or colleagues planning joint trips together. The platform supports them by relying on automated expense splitting, transparent per-person budget tracking, and AI consensus matching to align preferences and avoid group conflict.
 
-###3.Visually Impaired (OKU) Travelers
+3.Visually Impaired (OKU) Travelers
 This segment includes blind or visually impaired individuals seeking safe and independent travel options. The platform empowers these travelers by granting access to verified, certified volunteer "Sight-Guides" who provide full-day, door-to-door physical accompaniment throughout the trip to reduce anxiety and spatial navigation hazards in unfamiliar places.
 
 
