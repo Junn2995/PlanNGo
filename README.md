@@ -3,7 +3,7 @@ Team: Lim Zi Jun, Cheah Mun Xi, Lee Shu Wei, Wong Zhi Yun
 
 Problem Statement: Travel Planner
 
-Video Presentation:
+[Video Presentation](https://youtu.be/GmQBcq0IxCU)
 
 [Presentation Slides](https://canva.link/gg35gqv95leqt68)
 
