@@ -29,7 +29,7 @@ To accommodate the preferences of most group members, we provide a preference-ma
 For visually impaired travellers, we provide an option to choose a verified volunteer to accompany them throughout their trip. This can reduce the anxiety and risk of getting lost when travelling in unfamiliar places.
 
 ## 2. Ideation & Process
-### Ideas We Considered
+### 2.1 Ideas We Considered
 <table border="1">
   <tr>
     <th>Idea</th>
@@ -54,6 +54,14 @@ For visually impaired travellers, we provide an option to choose a verified volu
   <tr>
     <td><b>Volunteer Travel Companion (Chosen)</b></td>
     <td>Provides trained and company-certified travel companions for visually impaired solo travellers.</td>
+  </tr>
+  <tr>
+    <td><b>Flight delay & Weather change notification + AI change plan</b></td>
+    <td>The system notifies users when flight delays, cancellations, or significant weather changes may affect their trip. AI identifies which parts of the itinerary may be affected and suggest or generate an updated travel plan based on the changes. This helps users respond quickly to unexpected changes during their trip. </td>
+  </tr>
+  <tr>
+    <td><b>Travel Diary (Chosen)</b></td>
+    <td>Allows users to record their travel experiences, photos, notes and memories for both solo and group trips. For group trips, members can contribute to a shared diary. Users can look back at their memories and experiences even years after the trip.</td>
   </tr>
   <tr>
     <td><b>Chat Function (Dropped)</b></td>
