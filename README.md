@@ -56,7 +56,7 @@ For visually impaired travellers, we provide an option to choose a verified volu
     <td>Provides trained and company-certified travel companions for visually impaired solo travellers.</td>
   </tr>
   <tr>
-    <td><b>Flight delay & Weather change notification + AI change plan</b></td>
+    <td><b>Flight delay & Weather change notification + AI change plan (Chosen)</b></td>
     <td>The system notifies users when flight delays, cancellations, or significant weather changes may affect their trip. AI identifies which parts of the itinerary may be affected and suggest or generate an updated travel plan based on the changes. This helps users respond quickly to unexpected changes during their trip. </td>
   </tr>
   <tr>
